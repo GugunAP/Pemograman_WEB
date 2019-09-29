@@ -1,0 +1,86 @@
+body{
+    font-size: 17px; 
+}
+img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40%;
+}
+.center{
+    text-align: center;
+    color: cyan;
+}
+ul{
+    position: fixed;
+        top: 0;
+        width: 960px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #006600;
+}
+  
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+footer{
+    position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #006600 ;
+        color: white;
+        float: left;
+}
+.bar1{
+    width: 70%; 
+    height: 25px;
+    background-color: #4CAF50;
+    border-radius: 100px;
+    animation: html 10s ease-in-out forwards;
+}
+.bar2{
+    width: 60%;
+    height: 25px; 
+    background-color: #9fede1;
+    border-radius: 100px;
+    animation: html 10s ease-in-out forwards;
+    
+}
+.bar3{
+    width: 80%; 
+    height: 25px;
+    background-color: #ba8cdb;
+    border-radius: 100px;
+    animation: html 10s ease-in-out forwards;
+}
+.bar4{
+    width: 65%; 
+    height: 25px;
+    background-color: #ebdf5b;
+    border-radius: 100px;
+    animation: html 10s ease-in-out forwards;
+}
+.bar5{
+    width: 75%;
+    height: 25px; 
+    background-color: #d43370;
+    border-radius: 100px;
+    animation: html 10s ease-in-out forwards;
+}
+.background{
+    background-image: url(latar1.jpg)
+}
